@@ -1,0 +1,720 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Hospital Resource Optimization and Demand Forecasting System | SLIIT
+    </title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <div class="logo">25-26J-226</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#domain">Domain</a></li>
+          <li><a href="#milestones">Milestones</a></li>
+          <li><a href="#documents">Documents</a></li>
+          <li><a href="#presentations">Presentations</a></li>
+          <li><a href="#about">About Us</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="badge">Project ID: 25-26J-226</div>
+          <h1>Hospital Resource Optimization and Demand Forecasting System</h1>
+          <h2>
+            An AI-powered healthcare decision support platform for predicting
+            demand, optimizing hospital resources, and improving proactive
+            planning.
+          </h2>
+          <div class="overview-box">
+            <p>
+              Hospitals often face critical challenges such as overcrowded
+              wards, inefficient scheduling, medicine shortages, and delayed
+              responses to disease outbreaks. Most existing systems operate in a
+              reactive manner, addressing problems only after they occur.
+            </p>
+
+            <p>
+              This research introduces an AI-powered Hospital Resource
+              Optimization and Demand Forecasting System that enables proactive
+              decision-making. By combining machine learning models, time-series
+              forecasting, optimization techniques, and explainable AI, the
+              system predicts future hospital demands and provides actionable
+              insights for better planning.
+            </p>
+
+            <p>
+              The system integrates multiple components including patient flow
+              prediction, staff scheduling optimization, medicine demand
+              forecasting, and illness trend detection. This helps hospitals
+              improve efficiency, reduce delays, and enhance patient care
+              through data-driven decision-making.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light">
+      <div class="container">
+        <h2 class="section-title">Key Challenges</h2>
+        <div class="cards-grid">
+          <div class="card">
+            <div class="card-icon">🏥</div>
+            <h3>Overcrowding</h3>
+          </div>
+          <div class="card">
+            <div class="card-icon">⏱️</div>
+            <h3>Scheduling Issues</h3>
+          </div>
+          <div class="card">
+            <div class="card-icon">💊</div>
+            <h3>Medicine Shortages</h3>
+          </div>
+          <div class="card">
+            <div class="card-icon">🚨</div>
+            <h3>Outbreak Delays</h3>
+          </div>
+        </div>
+
+        <h2 class="section-title mt-5">Core Research Modules</h2>
+        <div class="cards-grid">
+          <div class="card">
+            <div class="card-icon">👥</div>
+            <p>
+              Staff Attendance Analysis and Patient-Doctor Scheduling
+              Optimization
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-icon">🚑</div>
+            <p>Forecast Medicine Requirements and Accident Surge Detection</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">🛏️</div>
+            <p>
+              Temporal Hospital ETU Bed Demand Forecasting and Optimization
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-icon">🦠</div>
+            <p>
+              Illness Trend Forecasting and Outbreak Detection for Hospitals
+            </p>
+          </div>
+        </div>
+
+        <div class="why-matters mt-5">
+          <h2 class="section-title">Why This Research Matters</h2>
+          <ul class="check-list">
+            <li>Improves hospital resource utilization</li>
+            <li>Reduces patient waiting time</li>
+            <li>Enhances emergency preparedness</li>
+            <li>Supports proactive healthcare planning</li>
+            <li>Enables data-driven decision making</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Domain Section -->
+    <section id="domain">
+      <div class="container">
+        <h2 class="section-title">Research Domain</h2>
+        <div class="domain-grid">
+          <div class="domain-card">
+            <h3>Literature Survey</h3>
+            <p>
+              Previous research in hospital systems has explored several areas
+              such as patient scheduling, medicine demand prediction, and
+              disease forecasting. Scheduling systems have focused on reducing
+              waiting time using optimization techniques. Medicine demand
+              forecasting studies have used statistical and machine learning
+              models to predict usage patterns.
+            </p>
+
+            <p>
+              Bed demand forecasting research has used time-series models to
+              estimate patient admissions. Disease trend forecasting studies
+              have analyzed environmental and historical data to predict
+              outbreaks. However, most of these systems operate independently
+              and do not provide an integrated solution.
+            </p>
+          </div>
+          <div class="domain-card">
+            <h3>Research Gap</h3>
+            <p>
+              Most existing systems focus on solving individual hospital
+              problems separately, such as scheduling, bed allocation, or
+              disease prediction. There is a lack of a unified system that
+              integrates all these components together.
+            </p>
+
+            <p>
+              Additionally, many systems lack real-time adaptability and do not
+              provide explainable outputs, making it difficult for healthcare
+              professionals to trust AI-based decisions.
+            </p>
+          </div>
+          <div class="domain-card">
+            <h3>Research Problem</h3>
+            <p>
+              Hospital resource management is currently reactive and
+              inefficient. This results in overcrowded wards, underutilized
+              resources, poor scheduling, and medicine shortages.
+            </p>
+
+            <p>
+              There is a need for an intelligent system that can predict future
+              demand, optimize resources, and provide clear decision support to
+              healthcare staff.
+            </p>
+          </div>
+          <div class="domain-card">
+            <h3>Research Objectives</h3>
+            <ul class="bullet-list">
+              <li>
+                Predict patient demand using historical and real-time data
+              </li>
+              <li>Optimize hospital bed allocation and utilization</li>
+              <li>Improve doctor and staff scheduling efficiency</li>
+              <li>Forecast medicine demand and emergency requirements</li>
+              <li>Detect illness trends and potential outbreaks early</li>
+              <li>Provide explainable AI outputs for better decision-making</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="methodology-box mt-5">
+          <h3>Methodology</h3>
+          <div class="workflow">
+            <div class="step">Data Collection</div>
+            <div class="arrow">→</div>
+            <div class="step">Preprocessing</div>
+            <div class="arrow">→</div>
+            <div class="step">Machine Learning</div>
+            <div class="arrow">→</div>
+            <div class="step">Optimization</div>
+            <div class="arrow">→</div>
+            <div class="step">Dashboard Output</div>
+          </div>
+        </div>
+
+        <div class="tech-box mt-5">
+          <h3>Technologies Used</h3>
+          <div class="tags">
+            <span class="tag">HTML</span><span class="tag">CSS</span
+            ><span class="tag">JavaScript</span> <span class="tag">Node.js</span
+            ><span class="tag">Flask</span><span class="tag">MongoDB</span>
+            <span class="tag">PyTorch</span><span class="tag">TensorFlow</span
+            ><span class="tag">Scikit-learn</span>
+            <span class="tag">Prophet</span
+            ><span class="tag">Random Forest</span
+            ><span class="tag">XGBoost</span> <span class="tag">LSTM</span
+            ><span class="tag">TFT</span><span class="tag">MILP</span>
+            <span class="tag">PuLP</span><span class="tag">Pandas</span
+            ><span class="tag">NumPy</span> <span class="tag">SHAP</span
+            ><span class="tag">LIME</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- System Modules Section -->
+    <section id="system-modules" class="bg-light">
+      <div class="container">
+        <h2 class="section-title">System Component</h2>
+        <div class="modules-grid">
+          <div class="module-card">
+            <div class="mod-number">Component 1</div>
+            <h3>Staff Attendance Analysis and Scheduling</h3>
+            <p>Improves appointment efficiency and reduces idle time.</p>
+          </div>
+          <div class="module-card">
+            <div class="mod-number">Component 2</div>
+            <h3>Medicine Demand and Accident Surge Detection</h3>
+            <p>Forecasts medicine usage and emergency demand.</p>
+          </div>
+          <div class="module-card">
+            <div class="mod-number">Component 3</div>
+            <h3>
+              Temporal Hospital ETU Bed Demand Forecasting and Optimization
+            </h3>
+            <p>Predicts patient inflow and allocates ETU beds efficiently.</p>
+          </div>
+          <div class="module-card">
+            <div class="mod-number">Component 4</div>
+            <h3>Illness Trend Forecasting and Outbreak Detection</h3>
+            <p>Uses environmental and disease data to predict outbreaks.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dataset / System Overview -->
+    <section id="datasets">
+      <div class="container">
+        <h2 class="section-title">Dataset / System Overview</h2>
+        <div class="cards-grid">
+          <div class="card dataset-card">
+            <h3>Staff Dataset</h3>
+            <p>doctor_id, date, appointments</p>
+          </div>
+          <div class="card dataset-card">
+            <h3>Medicine Dataset</h3>
+            <p>date, medicine, quantity</p>
+          </div>
+          <!-- Accident Dataset removed per request -->
+          <div class="card dataset-card">
+            <h3>ETU Bed Dataset</h3>
+            <p>admissions, discharge, occupancy</p>
+          </div>
+          <div class="card dataset-card">
+            <h3>Illness Dataset</h3>
+            <p>disease, rainfall, temperature, humidity</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results / Impact -->
+    <section id="impact" class="bg-light">
+      <div class="container">
+        <h2 class="section-title">Results / Impact</h2>
+        <div class="cards-grid">
+          <div class="card impact-card">
+            <h3>Increased Bed Utilization</h3>
+          </div>
+          <div class="card impact-card">
+            <h3>Reduced Overcrowding</h3>
+          </div>
+          <div class="card impact-card">
+            <h3>Better Scheduling Efficiency</h3>
+          </div>
+          <div class="card impact-card">
+            <h3>Improved Medicine Planning</h3>
+          </div>
+          <div class="card impact-card">
+            <h3>Early Disease Detection</h3>
+          </div>
+          <div class="card impact-card">
+            <h3>Data-driven decision making</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Milestones Section -->
+    <section id="milestones">
+      <div class="container">
+        <h2 class="section-title">Project Milestones</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Project Proposal <span class="icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Initial submission of the research idea, problem statement, and
+                proposed methodology. Approved by the research committee.
+              </p>
+              <div class="milestone-meta">
+                <span class="meta-date">📅 10 Sep 2025</span>
+                <span class="meta-marks">⭐ Accept</span>
+              </div>
+              <span class="status completed">Completed</span>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Progress Presentation 1 <span class="icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Presentation of the comprehensive literature review, refined
+                research gap, and initial data collection strategies.
+              </p>
+              <div class="milestone-meta">
+                <span class="meta-date">📅 5 Jan 2026</span>
+                <span class="meta-marks">⭐ Accept</span>
+              </div>
+              <span class="status completed">Completed</span>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Progress Presentation 2 <span class="icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Demonstration of the initial prototype, preliminary results from
+                the machine learning models, and architectural design
+                validation.
+              </p>
+              <div class="milestone-meta">
+                <span class="meta-date">📅 9 Mar 2026</span>
+                <span class="meta-marks">⭐ Accept</span>
+              </div>
+              <span class="status pending">Completed</span>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Final Assessment <span class="icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Complete system demonstration, comprehensive evaluation results,
+                and final thesis documentation submission.
+              </p>
+              <div class="milestone-meta">
+    
+              </div>
+              <span class="status upcoming">Upcoming</span>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Viva <span class="icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Final oral examination defending the research methodology,
+                practical findings, and overall contribution to the field.
+              </p>
+              <div class="milestone-meta">
+
+              </div>
+              <span class="status upcoming">Upcoming</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Documents Section -->
+    <section id="documents" class="bg-light">
+      <div class="container">
+        <h2 class="section-title">Documents</h2>
+        <div class="cards-grid documents-grid">
+          <div class="doc-card">
+            <h3>TAF Document</h3>
+            <p>
+              Initial assessment and approval form for the chosen research
+              topic.
+            </p>
+            <span class="status completed doc-status">Completed</span>
+            <div class="doc-actions">
+              <a
+                href="documents/TAF_25-26J-226.pdf"
+                target="_blank"
+                class="btn btn-outline"
+                >View</a
+              >
+              <a
+                href="documents/TAF_25-26J-226.pdf"
+                download
+                class="btn btn-primary"
+                >Download</a
+              >
+            </div>
+          </div>
+          <div class="doc-card">
+            <h3>Proposal Document</h3>
+            <p>Detailed project proposal outlining objectives and methodology.</p>
+            <span class="status completed doc-status">Completed</span>
+            <div class="doc-list">
+              <div class="doc-list-item">
+                <span class="doc-list-name">IT22075758 - Adikari A M C G</span>
+                <div class="doc-list-actions">
+                  <a href="documents/Individual_Project_Proposal_Report_IT22075758.pdf" target="_blank" class="btn btn-outline">View</a>
+                  <a href="documents/Individual_Project_Proposal_Report_IT22075758.pdf" download class="btn btn-primary">Download</a>
+                </div>
+              </div>
+              <div class="doc-list-item">
+                <span class="doc-list-name">IT22179326 - Wijethunga S R</span>
+                <div class="doc-list-actions">
+                  <a href="documents/Individual_Project_Proposal_Report_IT22179326.pdf" target="_blank" class="btn btn-outline">View</a>
+                  <a href="documents/Individual_Project_Proposal_Report_IT22179326.pdf" download class="btn btn-primary">Download</a>
+                </div>
+              </div>
+              <div class="doc-list-item">
+                <span class="doc-list-name">IT22555526 - Lochana J L S</span>
+                <div class="doc-list-actions">
+                  <a href="documents/Individual_Project_Proposal_Report_IT22555526.pdf" target="_blank" class="btn btn-outline">View</a>
+                  <a href="documents/Individual_Project_Proposal_Report_IT22555526.pdf" download class="btn btn-primary">Download</a>
+                </div>
+              </div>
+              <div class="doc-list-item">
+                <span class="doc-list-name">IT22252890 - Herath H M M B</span>
+                <div class="doc-list-actions">
+                  <a href="documents/Individual_Project_Proposal_Report_IT22252890.pdf" target="_blank" class="btn btn-outline">View</a>
+                  <a href="documents/Individual_Project_Proposal_Report_IT22252890.pdf" download class="btn btn-primary">Download</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="doc-card">
+            <h3>Draft Final Report</h3>
+            <p>Comprehensive final thesis and research findings.</p>
+            <span class="status completed doc-status">Completed</span>
+            <div class="doc-actions" style="margin-bottom: 15px;">
+              <a href="documents/Group_Final_Report_Draft.pdf" target="_blank" class="btn btn-outline">View Group Report</a>
+              <a href="documents/Group_Final_Report_Draft.pdf" download class="btn btn-primary">Download</a>
+            </div>
+            <div class="doc-list">
+              <div class="doc-list-item">
+                <span class="doc-list-name">IT22075758 - Adikari A M C G</span>
+                <div class="doc-list-actions">
+                  <a href="documents/Final_Report_Draft_IT22075758.pdf" target="_blank" class="btn btn-outline">View</a>
+                  <a href="documents/Final_Report_Draft_IT22075758.pdf" download class="btn btn-primary">Download</a>
+                </div>
+              </div>
+              <div class="doc-list-item">
+                <span class="doc-list-name">IT22179326 - Wijethunga S R</span>
+                <div class="doc-list-actions">
+                  <a href="documents/Final_Report_Draft_IT22179326.pdf" target="_blank" class="btn btn-outline">View</a>
+                  <a href="documents/Final_Report_Draft_IT22179326.pdf" download class="btn btn-primary">Download</a>
+                </div>
+              </div>
+              <div class="doc-list-item">
+                <span class="doc-list-name">IT22555526 - Lochana J L S</span>
+                <div class="doc-list-actions">
+                  <a href="documents/Final_Report_Draft_IT22555526.pdf" target="_blank" class="btn btn-outline">View</a>
+                  <a href="documents/Final_Report_Draft_IT22555526.pdf" download class="btn btn-primary">Download</a>
+                </div>
+              </div>
+              <div class="doc-list-item">
+                <span class="doc-list-name">IT22252890 - Herath H M M B</span>
+                <div class="doc-list-actions">
+                  <a href="documents/Final_Report_Draft_IT22252890.pdf" target="_blank" class="btn btn-outline">View</a>
+                  <a href="documents/Final_Report_Draft_IT22252890.pdf" download class="btn btn-primary">Download</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="doc-card">
+            <h3>Research Paper</h3>
+            <p>Formatted academic paper ready for publication.</p>
+            <span class="status completed doc-status">Completed</span>
+            <div class="doc-actions">
+              <a
+                href="documents/Reserch paper.pdf"
+                target="_blank"
+                class="btn btn-outline"
+                >View</a
+              >
+              <a
+                href="documents/Reserch paper.pdf"
+                download
+                class="btn btn-primary"
+                >Download</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Presentations Section -->
+    <section id="presentations">
+      <div class="container">
+        <h2 class="section-title">Presentations</h2>
+        <div class="cards-grid documents-grid">
+          <div class="doc-card">
+            <h3>Proposal Presentation</h3>
+            <p>Slides used for the initial project proposal defense.</p>
+            <span class="status completed doc-status">Completed</span>
+            <div class="doc-actions">
+              <a
+                href="presentations/Project Proposal Presentation 25-26J-226.pptx"
+                download
+                class="btn btn-primary"
+                >Download</a
+              >
+            </div>
+          </div>
+          <div class="doc-card">
+            <h3>Progress Presentation 1</h3>
+            <p>Slides detailing literature review and methodology.</p>
+            <span class="status completed doc-status">Completed</span>
+            <div class="doc-actions">
+              <a
+                href="presentations/PP1_Project Proposal Presentation 25-26J-226.pptx"
+                download
+                class="btn btn-primary"
+                >Download</a
+              >
+            </div>
+          </div>
+          <div class="doc-card">
+            <h3>Progress Presentation 2</h3>
+            <p>Slides showing prototype demonstration and mid-term results.</p>
+            <span class="status completed doc-status">Completed</span>
+            <div class="doc-actions">
+              <a
+                href="presentations/PP2_Project Proposal 25-26J-226.pptx"
+                download
+                class="btn btn-primary"
+                >Download</a
+              >
+            </div>
+          </div>
+          <div class="doc-card">
+            <h3>Final Presentation</h3>
+            <p>Slides prepared for the final research project defense.</p>
+            <span class="status upcoming doc-status">Upcoming</span>
+            <div class="doc-actions">
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="bg-light">
+      <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <div class="team-overview">
+          <p>
+            We are an undergraduate research team from Sri Lanka Institute of
+            Information Technology (SLIIT) working on an AI-powered hospital
+            optimization and demand forecasting system.
+          </p>
+        </div>
+        <div class="cards-grid team-grid mt-5">
+          <div class="team-card">
+            <img
+              src="assets/images/Adikari A M C G.png"
+              alt="Team Member"
+              class="team-img-placeholder"
+              onerror="
+                this.src =
+                  'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20fill%3D%22%23e0e0e0%22%20width%3D%22120%22%20height%3D%22120%22%2F%3E%3Ctext%20fill%3D%22%23999%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20dy%3D%225.5%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3EImage%3C%2Ftext%3E%3C%2Fsvg%3E'
+              "
+            />
+            <h3>Adikari A M C G</h3>
+            <p class="role">Scheduling Module</p>
+            <p class="email">IT220757582@my.sliit.lk</p>
+            <p class="summary">
+              Focuses on staff attendance analysis and patient-doctor scheduling
+              optimization.
+            </p>
+          </div>
+          <div class="team-card">
+            <img
+              src="assets/images/Wijethunga S R.png"
+              alt="Team Member"
+              class="team-img-placeholder"
+              onerror="
+                this.src =
+                  'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20fill%3D%22%23e0e0e0%22%20width%3D%22120%22%20height%3D%22120%22%2F%3E%3Ctext%20fill%3D%22%23999%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20dy%3D%225.5%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3EImage%3C%2Ftext%3E%3C%2Fsvg%3E'
+              "
+            />
+            <h3>Wijethunga S R</h3>
+            <p class="role">Medicine Module</p>
+            <p class="email">IT22179326@my.sliit.lk</p>
+            <p class="summary">
+              Handles forecasting medicine requirements and accident surge
+              detection.
+            </p>
+          </div>
+          <div class="team-card">
+            <img
+              src="assets/images/Lochana J L S.jpeg"
+              alt="Team Member"
+              class="team-img-placeholder"
+              onerror="
+                this.src =
+                  'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20fill%3D%22%23e0e0e0%22%20width%3D%22120%22%20height%3D%22120%22%2F%3E%3Ctext%20fill%3D%22%23999%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20dy%3D%225.5%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3EImage%3C%2Ftext%3E%3C%2Fsvg%3E'
+              "
+            />
+            <h3>Lochana J L S</h3>
+            <p class="role">ETU Bed Optimization Module</p>
+            <p class="email">IT22555526@my.sliit.lk</p>
+            <p class="summary">
+              Develops temporal hospital ETU bed demand forecasting and
+              optimization models.
+            </p>
+          </div>
+          <div class="team-card">
+            <img
+              src="assets/images/Herath H M M B.png"
+              alt="Team Member"
+              class="team-img-placeholder"
+              onerror="
+                this.src =
+                  'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20fill%3D%22%23e0e0e0%22%20width%3D%22120%22%20height%3D%22120%22%2F%3E%3Ctext%20fill%3D%22%23999%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20dy%3D%225.5%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3EImage%3C%2Ftext%3E%3C%2Fsvg%3E'
+              "
+            />
+            <h3>Herath H M M B</h3>
+            <p class="role">Illness Forecasting Module</p>
+            <p class="email">IT22252890@my.sliit.lk</p>
+            <p class="summary">
+              Works on illness trend forecasting and outbreak detection for
+              hospitals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <h3>
+              Hospital Resource Optimization and Demand Forecasting System
+            </h3>
+            <p>Project ID: 25-26J-226</p>
+            <p>
+              Sri Lanka Institute of Information Technology (SLIIT)<br />Faculty
+              of Computing
+            </p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#domain">Domain</a></li>
+              <li><a href="#milestones">Milestones</a></li>
+              <li><a href="#documents">Documents</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Research Project 25-26J-226. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS Link -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
